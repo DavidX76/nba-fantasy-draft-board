@@ -11,8 +11,6 @@ Does not take player efficiency (FGM, FGA, FTM, FTA) into consideration.
 
 ## Draft Steals
 
-Players projected to finish much higher than where they are being drafted.
-
 | Player | GP | Season | ADP | ADP rank | Proj rank | Gap |
 |---|---|---|---|---|---|---|
 | Toumani Camara | 73 | 1650 | 156 | 157 | 103 | +54 |
@@ -33,8 +31,6 @@ Players projected to finish much higher than where they are being drafted.
 
 ## Draft Busts
 
-Players projected to finish much lower than where they are being drafted.
-
 | Player | GP | Season | ADP | ADP rank | Proj rank | Gap |
 |---|---|---|---|---|---|---|
 | Kevin Porter Jr | 53 | 1055 | 105 | 105 | 166 | -61 |
@@ -53,6 +49,6 @@ Players projected to finish much lower than where they are being drafted.
 | De'Aaron Fox | 67 | 1863 | 47 | 47 | 76 | -29 |
 | Tobias Harris | 68 | 1476 | 111 | 112 | 139 | -27 |
 
-**Notes:** Gap = ADP rank minus projected rank (positive = steal, negative = bust). `*` means ESPN had no ADP, so Yahoo ADP was used. Players with very low projected games played (e.g. Mark Williams, Jimmy Butler) can appear as busts because of missed games rather than weak production.
+**Notes:** * means Yahoo ADP was used instead of ESPN.
 
 See [RESULTS.md](RESULTS.md) for the full ranking.
