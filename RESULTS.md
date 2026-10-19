@@ -1,25 +1,4 @@
-# 2026 Fantasy Basketball Draft Board
-
-Ranks players by projected season value and compares that to ESPN average draft position (ADP) to find steals and busts.
-
-## How scores are calculated
-
-**This is a partial version of the requested scoring.** The projections file has no FGM, FGA, FTM or FTA columns, so the shooting-efficiency terms could not be included.
-
-`Score/G = PTS + REB + AST + STL + BLK + 3PM − TO` (each worth 1 point, per game)
-
-`Season = Score/G × projected games played`, which is the ranking order. Injury-prone players drop because they miss games.
-
-Because FGA and FTA (−1 each) are left out, **high-volume, low-efficiency scorers are overrated here and efficient scorers are underrated.** Treat this as an approximation until the shooting columns are available.
-
-## ADP and the Gap column
-
-- **ADP** is ESPN ADP from the FantasyPros file. A `*` means ESPN had no value, so Yahoo ADP was used instead.
-- **Gap** is ADP rank minus projected rank, with both ranked within the same pool of players that have an ADP. **Positive = steal** (projected better than drafted), **negative = bust**.
-- 19 players in the projections have no ADP in the FantasyPros file, so they are ranked below but excluded from steals/busts.
-- Players with very low GP (e.g. Mark Williams at 5, Jimmy Butler at 18) show up as busts because of expected missed games, not per-game production. Check the GP column.
-
-## Draft steals (projected much better than ADP)
+## Draft steals 
 
 | Player | GP | Season | ADP | ADP rank | Proj rank | Gap |
 |---|---|---|---|---|---|---|
@@ -39,7 +18,7 @@ Because FGA and FTA (−1 each) are left out, **high-volume, low-efficiency scor
 | Ryan Rollins | 69 | 1918 | 101 | 101 | 67 | +34 |
 | Payton Pritchard | 74 | 1998 | 89 | 89 | 56 | +33 |
 
-## Draft busts (projected much worse than ADP)
+## Draft busts 
 
 | Player | GP | Season | ADP | ADP rank | Proj rank | Gap |
 |---|---|---|---|---|---|---|
